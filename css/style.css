@@ -1,0 +1,663 @@
+@media screen and (max-width: 540px) and (min-width: 360px) {
+  body {
+    font-family: "Roboto", sans-serif;
+    background-color: #F8FAFF;
+    font-size: 14px;
+    color: #7D7D7D;
+  }
+
+  .bg-body {
+    box-shadow: 0px 0px 38px rgba(136, 167, 245, 0.08);
+  }
+
+  .btn-primary {
+    background-color: #55C97B;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+
+  .btn-primary:hover {
+    background-color: #40945c;
+  }
+
+  .active {
+    position: relative;
+  }
+
+  .activedMarker {
+    position: absolute;
+    top: -20px;
+    left: -40px;
+  }
+
+  .disabled {
+    display: none;
+  }
+
+  .btn-secondary {
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: #B1B1B1;
+  }
+
+  .btn-secondary:hover {
+    background-color: #656565;
+  }
+
+  .create::before {
+    content: "+";
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .table-block {
+    max-width: 1001px;
+  }
+
+  .table-elem {
+    padding: 15px 0px 15px 65px !important;
+  }
+
+  td {
+    font-size: 14px;
+    color: #6E6E6E;
+    text-align: center;
+  }
+
+  .edit {
+    position: relative;
+  }
+
+  .edit::before {
+    position: absolute;
+    content: url(../img/карандаш.png);
+    width: 11px;
+    height: 12px;
+    text-align: center;
+    top: 8px;
+    left: 15px;
+  }
+
+  .stop-edit {
+    position: relative;
+  }
+
+  .stop-edit::before {
+    position: absolute;
+    content: url(../img/cansel.png);
+    width: 11px;
+    height: 12px;
+    text-align: center;
+    top: 9px;
+    left: 15px;
+  }
+
+  .modal {
+    --bs-modal-border-radius: 10px;
+    --bs-modal-border-color: none;
+    --bs-modal-width: 560px;
+  }
+
+  .modal-backdrop.show {
+    opacity: 0;
+  }
+
+  .modal-btn {
+    width: 151px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .btn-close {
+    border: 1px solid #656565;
+    border-radius: 50%;
+    --bs-modal-header-padding-y: 2;
+    --bs-modal-header-padding-x: 2;
+    opacity: 100;
+    fill: #656565;
+    background-size: 7px 7px;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .modal-header {
+    border-bottom: none;
+  }
+
+  .select {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #CDCDCD;
+    color: #CDCDCD;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+
+  .modal-input {
+    background-color: #E6E6E9;
+    border: none;
+  }
+
+  .btn-success {
+    background-color: #6666CC;
+    width: 151px;
+    height: 36px;
+    border-radius: 0;
+  }
+
+  .modal-footer {
+    border-top: none;
+    justify-content: flex-start;
+  }
+
+  p {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #6666CC;
+
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 540px) {
+  body {
+    font-family: "Roboto", sans-serif;
+    background-color: #F8FAFF;
+    font-size: 14px;
+    color: #7D7D7D;
+  }
+
+  .bg-body {
+    box-shadow: 0px 0px 38px rgba(136, 167, 245, 0.08);
+  }
+
+  .btn-primary {
+    background-color: #55C97B;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+
+  .btn-primary:hover {
+    background-color: #40945c;
+  }
+
+  .active {
+    position: relative;
+  }
+
+  .activedMarker {
+    position: absolute;
+    top: -20px;
+    left: -40px;
+  }
+
+  .disabled {
+    display: none;
+  }
+
+  .btn-secondary {
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: #B1B1B1;
+  }
+
+  .btn-secondary:hover {
+    background-color: #656565;
+  }
+
+  .create::before {
+    content: "+";
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .table-block {
+    max-width: 1001px;
+  }
+
+  .table-elem {
+    padding: 15px 0px 15px 65px !important;
+  }
+
+  td {
+    font-size: 14px;
+    color: #6E6E6E;
+    text-align: center;
+  }
+
+  .edit {
+    position: relative;
+  }
+
+  .edit::before {
+    position: absolute;
+    content: url(../img/карандаш.png);
+    width: 11px;
+    height: 12px;
+    text-align: center;
+    top: 8px;
+    left: 15px;
+  }
+
+  .stop-edit {
+    position: relative;
+  }
+
+  .stop-edit::before {
+    position: absolute;
+    content: url(../img/cansel.png);
+    width: 11px;
+    height: 12px;
+    text-align: center;
+    top: 9px;
+    left: 15px;
+  }
+
+  .modal {
+    --bs-modal-border-radius: 10px;
+    --bs-modal-border-color: none;
+    --bs-modal-width: 560px;
+  }
+
+  .modal-backdrop.show {
+    opacity: 0;
+  }
+
+  .modal-btn {
+    width: 151px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .btn-close {
+    border: 1px solid #656565;
+    border-radius: 50%;
+    --bs-modal-header-padding-y: 2;
+    --bs-modal-header-padding-x: 2;
+    opacity: 100;
+    fill: #656565;
+    background-size: 7px 7px;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .modal-header {
+    border-bottom: none;
+  }
+
+  .select {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #CDCDCD;
+    color: #CDCDCD;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+
+  .modal-input {
+    background-color: #E6E6E9;
+    border: none;
+  }
+
+  .btn-success {
+    background-color: #6666CC;
+    width: 151px;
+    height: 36px;
+    border-radius: 0;
+  }
+
+  .modal-footer {
+    border-top: none;
+    justify-content: flex-start;
+  }
+
+  p {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #6666CC;
+
+  }
+}
+
+@media screen and (max-width: 1320px) and (min-width: 992px) {
+  body {
+    font-family: "Roboto", sans-serif;
+    background-color: #F8FAFF;
+    font-size: 14px;
+    color: #7D7D7D;
+  }
+
+  .bg-body {
+    box-shadow: 0px 0px 38px rgba(136, 167, 245, 0.08);
+  }
+
+  .btn-primary {
+    background-color: #55C97B;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+
+  .btn-primary:hover {
+    background-color: #40945c;
+  }
+
+  .active {
+    position: relative;
+  }
+
+  .activedMarker {
+    position: absolute;
+    top: -20px;
+    left: -40px;
+  }
+
+  .disabled {
+    display: none;
+  }
+
+  .btn-secondary {
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: #B1B1B1;
+  }
+
+  .btn-secondary:hover {
+    background-color: #656565;
+  }
+
+  .create::before {
+    content: "+";
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .table-block {
+    max-width: 1001px;
+  }
+
+  .table-elem {
+    padding: 15px 0px 15px 65px !important;
+  }
+
+  td {
+    font-size: 14px;
+    color: #6E6E6E;
+    text-align: center;
+  }
+
+  .edit {
+    position: relative;
+  }
+
+  .edit::before {
+    position: absolute;
+    content: url(../img/карандаш.png);
+    width: 11px;
+    height: 12px;
+    text-align: center;
+    top: 8px;
+    left: 15px;
+  }
+
+  .stop-edit {
+    position: relative;
+  }
+
+  .stop-edit::before {
+    position: absolute;
+    content: url(../img/cansel.png);
+    width: 11px;
+    height: 12px;
+    text-align: center;
+    top: 9px;
+    left: 15px;
+  }
+
+  .modal {
+    --bs-modal-border-radius: 10px;
+    --bs-modal-border-color: none;
+    --bs-modal-width: 560px;
+  }
+
+  .modal-backdrop.show {
+    opacity: 0;
+  }
+
+  .modal-btn {
+    width: 151px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .btn-close {
+    border: 1px solid #656565;
+    border-radius: 50%;
+    --bs-modal-header-padding-y: 2;
+    --bs-modal-header-padding-x: 2;
+    opacity: 100;
+    fill: #656565;
+    background-size: 7px 7px;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .modal-header {
+    border-bottom: none;
+  }
+
+  .select {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #CDCDCD;
+    color: #CDCDCD;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+
+  .modal-input {
+    background-color: #E6E6E9;
+    border: none;
+  }
+
+  .btn-success {
+    background-color: #6666CC;
+    width: 151px;
+    height: 36px;
+    border-radius: 0;
+  }
+
+  .modal-footer {
+    border-top: none;
+    justify-content: flex-start;
+  }
+
+  p {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #6666CC;
+
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  body {
+    font-family: "Roboto", sans-serif;
+    background-color: #F8FAFF;
+    font-size: 14px;
+    color: #7D7D7D;
+  }
+
+  .bg-body {
+    box-shadow: 0px 0px 38px rgba(136, 167, 245, 0.08);
+  }
+
+  .btn-primary {
+    background-color: #55C97B;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+
+  .btn-primary:hover {
+    background-color: #40945c;
+  }
+
+  .active {
+    position: relative;
+  }
+
+  .activedMarker {
+    position: absolute;
+    top: -20px;
+    left: -40px;
+  }
+
+  .disabled {
+    display: none;
+  }
+
+  .btn-secondary {
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: #B1B1B1;
+  }
+
+  .btn-secondary:hover {
+    background-color: #656565;
+  }
+
+  .create::before {
+    content: "+";
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .table-block {
+    max-width: 1001px;
+  }
+
+  .table-elem {
+    padding: 15px 0px 15px 65px !important;
+  }
+
+  td {
+    font-size: 14px;
+    color: #6E6E6E;
+    text-align: center;
+  }
+
+  .edit {
+    position: relative;
+  }
+
+  .edit::before {
+    position: absolute;
+    content: url(../img/карандаш.png);
+    width: 11px;
+    height: 12px;
+    text-align: center;
+    top: 8px;
+    left: 15px;
+  }
+
+  .stop-edit {
+    position: relative;
+  }
+
+  .stop-edit::before {
+    position: absolute;
+    content: url(../img/cansel.png);
+    width: 11px;
+    height: 12px;
+    text-align: center;
+    top: 9px;
+    left: 15px;
+  }
+
+  .modal {
+    --bs-modal-border-radius: 10px;
+    --bs-modal-border-color: none;
+    --bs-modal-width: 560px;
+  }
+
+  .modal-backdrop.show {
+    opacity: 0;
+  }
+
+  .modal-btn {
+    width: 151px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .btn-close {
+    border: 1px solid #656565;
+    border-radius: 50%;
+    --bs-modal-header-padding-y: 2;
+    --bs-modal-header-padding-x: 2;
+    opacity: 100;
+    fill: #656565;
+    background-size: 7px 7px;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .modal-header {
+    border-bottom: none;
+  }
+
+  .select {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #CDCDCD;
+    color: #CDCDCD;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+
+  .modal-input {
+    background-color: #E6E6E9;
+    border: none;
+  }
+
+  .btn-success {
+    background-color: #6666CC;
+    width: 151px;
+    height: 36px;
+    border-radius: 0;
+  }
+
+  .modal-footer {
+    border-top: none;
+    justify-content: flex-start;
+  }
+
+  p {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #6666CC;
+
+  }
+}
