@@ -14,6 +14,10 @@ if (actived) {
 let parent = document.getElementById("header");
 let menuList = document.getElementById("menu");
 let mainContainer = document.getElementById("main");
+let editBtn = document.getElementById("edit");
+let stopEditBtn = document.getElementById("stop-edit");
+let editBtnS = document.getElementById("edit-s");
+let stopEditBtnS = document.getElementById("stop-edit-s");
 
 window.addEventListener("resize", move);
 
@@ -22,8 +26,18 @@ function move() {
   if (viewport_width <= 992) {
     if (!menuList.classList.contains("disabled")) {
       menuList.classList.add("disabled");
-      mainContainer.classList.remove("w-75");
+      mainContainer.classList.remove("w-75", "ms-4", "p-4", "pt-4");
+      mainContainer.classList.add("mt-2");
+      editBtn.classList.remove("ps-5", "pe-3", "p-2");
+      stopEditBtn.classList.remove("ps-5", "pe-3", "p-2");
+      editBtnS.classList.remove("ps-5", "pe-3", "p-2");
+      stopEditBtnS.classList.remove("ps-5", "pe-3", "p-2");
+      editBtn.innerHTML = "";
+      stopEditBtn.innerHTML = "";
+      editBtnS.innerHTML = "";
+      stopEditBtnS.innerHTML = "";
 
+      parent.insertAdjacentHTML("beforebegin", `<img src="./img/Logo Work5.png" alt="logo" class="logo" id="logo">`);
       parent.insertAdjacentHTML(
         "afterbegin",
         `<div class="dropdown" id="menuSmall">
@@ -47,8 +61,20 @@ function move() {
   } else {
     if (menuList.classList.contains("disabled")) {
       let menu = document.getElementById("menuSmall");
+      let logo = document.getElementById("logo");
       menu.remove();
+      logo.remove();
+      mainContainer.classList.add("w-75", "ms-4", "p-4", "pt-4");
+      mainContainer.classList.remove("mt-2");
       menuList.classList.remove("disabled");
+      editBtn.classList.add("ps-5", "pe-3", "p-2");
+      stopEditBtn.classList.add("ps-5", "pe-3", "p-2");
+      editBtnS.classList.add("ps-5", "pe-3", "p-2");
+      stopEditBtnS.classList.add("ps-5", "pe-3", "p-2");
+      editBtn.innerHTML = "Редактировать";
+      stopEditBtn.innerHTML = "Редактировать";
+      editBtnS.innerHTML = "Редактировать";
+      stopEditBtnS.innerHTML = "Редактировать";
     }
   }
 }

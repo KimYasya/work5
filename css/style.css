@@ -57,17 +57,19 @@
   }
 
   .table-elem {
-    padding: 15px 0px 15px 65px !important;
+    padding: 5px 0px 5px 35px !important;
   }
 
   td {
-    font-size: 14px;
+    font-size: 12px;
     color: #6E6E6E;
     text-align: center;
   }
 
   .edit {
     position: relative;
+    height: 36px;
+    width: 36px;
   }
 
   .edit::before {
@@ -75,13 +77,14 @@
     content: url(../img/карандаш.png);
     width: 11px;
     height: 12px;
-    text-align: center;
-    top: 8px;
-    left: 15px;
+    top: 25%;
+    left: 30%;
   }
 
   .stop-edit {
     position: relative;
+    height: 36px;
+    width: 36px;
   }
 
   .stop-edit::before {
@@ -89,9 +92,8 @@
     content: url(../img/cansel.png);
     width: 11px;
     height: 12px;
-    text-align: center;
-    top: 9px;
-    left: 15px;
+    top: 30%;
+    left: 30%;
   }
 
   .modal {
@@ -162,6 +164,10 @@
     color: #6666CC;
 
   }
+
+  .logo {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 992px) and (min-width: 540px) {
@@ -170,6 +176,7 @@
     background-color: #F8FAFF;
     font-size: 14px;
     color: #7D7D7D;
+    margin: 0 auto !important;
   }
 
   .bg-body {
@@ -234,6 +241,8 @@
 
   .edit {
     position: relative;
+    height: 36px;
+    width: 36px;
   }
 
   .edit::before {
@@ -241,13 +250,14 @@
     content: url(../img/карандаш.png);
     width: 11px;
     height: 12px;
-    text-align: center;
-    top: 8px;
-    left: 15px;
+    top: 25%;
+    left: 30%;
   }
 
   .stop-edit {
     position: relative;
+    height: 36px;
+    width: 36px;
   }
 
   .stop-edit::before {
@@ -255,9 +265,8 @@
     content: url(../img/cansel.png);
     width: 11px;
     height: 12px;
-    text-align: center;
-    top: 9px;
-    left: 15px;
+    top: 30%;
+    left: 30%;
   }
 
   .modal {
@@ -326,7 +335,10 @@
   a {
     text-decoration: none;
     color: #6666CC;
+  }
 
+  .logo {
+    margin-bottom: 20px;
   }
 }
 
